@@ -1,8 +1,17 @@
-/web/bundles/
+
+/build/
+/bin/
+
+# Composer
+/composer.phar
+/vendor/
+
+# Symfony
 /app/bootstrap.php.cache
 /app/cache/*
 /app/logs/*
-/build/
-/vendor/
-/bin/
-/composer.phar
+/web/bundles/
+
+# Local config files
+/app/phpunit.xml
+/app/config/parameters.yml
